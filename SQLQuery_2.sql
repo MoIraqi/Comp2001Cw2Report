@@ -10,4 +10,3 @@ CREATE TABLE CW2.Trail (
     RouteType VARCHAR(50),                -- This is the type of trail (e.g., Loop, Out-and-Back)
     OwnerID INT                           -- this is the ID of the trail's owner
 );
-
