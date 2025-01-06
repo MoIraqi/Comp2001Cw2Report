@@ -62,6 +62,7 @@ GET /trails/<trail_id>/users: Retrieve users associated with a trail.
 POST /trails/<trail_id>/users: Add a user to a trail.
 
 DELETE /trails/<trail_id>/users/<user_id>: Remove a user from a trail.
+
 --------------------------------------------------------------------
 
 Features Endpoints
@@ -71,6 +72,8 @@ GET /trails/<trail_id>/features: Retrieve features of a trail.
 POST /trails/<trail_id>/features: Add a feature to a trail.
 
 DELETE /trails/<trail_id>/features/<feature_id>: Remove a feature from a trail.
+
+
 --------------------------------------------------------------------
 
 Location Points Endpoints:
@@ -80,6 +83,8 @@ GET /trails/<trail_id>/locations: Retrieve location points of a trail.
 POST /trails/<trail_id>/locations: Add a location point to a trail.
 
 DELETE /trails/<trail_id>/locations/<location_point_id>: Remove a location point from a trail.
+
+
 ----------------------------------------------------------------------------------------
 
 Technologies Used:
