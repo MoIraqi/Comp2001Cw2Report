@@ -13,11 +13,17 @@ Entities and Relationships
 The Trail Microservice interacts with several database tables to model the system:
 
 Users: Contains user details like username, email, and role.
+
 Trails: Represents the walking trails with detailed attributes.
+
 TrailUser: Links users to trails they own or participate in.
+
 Features: Represents specific characteristics of trails.
+
 TrailFeature: Links features to trails.
+
 LocationPoint: Stores geospatial data for trails.
+
 Refer to the Entity-Relationship Diagram (ERD) for a detailed representation of the database structure.
 
 API Endpoints
