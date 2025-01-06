@@ -1,0 +1,52 @@
+swagger: "2.0"
+info:
+  description: "API for managing trails"
+  version: "1.0.0"
+  title: "Trail Service API"
+host: "localhost:5000"
+basePath: "/api"
+schemes:
+  - "http"
+paths:
+  /trails:
+    get:
+      summary: "Get all trails"
+      responses:
+        200:
+          description: "Success"
+    post:
+      summary: "Create a new trail"
+      responses:
+        201:
+          description: "Trail created"
+  /trails/{trail_id}:
+    get:
+      summary: "Get a trail by ID"
+      parameters:
+        - name: "trail_id"
+          in: "path"
+          required: true
+          type: "integer"
+      responses:
+        200:
+          description: "Success"
+    put:
+      summary: "Update a trail by ID"
+      parameters:
+        - name: "trail_id"
+          in: "path"
+          required: true
+          type: "integer"
+      responses:
+        200:
+          description: "Updated"
+    delete:
+      summary: "Delete a trail by ID"
+      parameters:
+        - name: "trail_id"
+          in: "path"
+          required: true
+          type: "integer"
+      responses:
+        200:
+          description: "Deleted"

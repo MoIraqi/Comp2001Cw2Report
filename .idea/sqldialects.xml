@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/app/data_access.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/fetch_joined_data.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/trail_microservice.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/test/test_trail_microservice.py" dialect="GenericSQL" />
+  </component>
+</project>
