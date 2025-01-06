@@ -1,7 +1,6 @@
 # Trail Microservice
 
 
-Trail Microservice
 This is a RESTful microservice for managing trails as part of a well-being trail application. The goal of this service is to enhance the outdoor experience by offering users detailed information about walking trails and their associated features, locations, and participants.
 
 Key Features
